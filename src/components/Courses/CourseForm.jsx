@@ -13,7 +13,7 @@ export default function CourseForm() {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        placeholder="New Course"
+        placeholder="New Course - Hindi, English, Urdu"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
