@@ -13,7 +13,7 @@ export default function CourseTypeForm() {
   return (
     <form onSubmit={handleSubmit}>
       <input
-        placeholder="New Course Type"
+        placeholder="New Course Type - Individual, Group, Special"
         value={name}
         onChange={(e) => setName(e.target.value)}
         required
